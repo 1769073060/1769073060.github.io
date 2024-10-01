@@ -259,7 +259,7 @@ p > a{
 
 /* 框框位置上下位置 */
 .box:not(:last-child){
-    margin-bottom: 1.6rem;
+    margin-bottom: 0.6rem;
 }
 
 body {
@@ -281,7 +281,7 @@ a {
     box-shadow: 0 .5em 1em -.125em rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .02);
     color: #4a4a4a;
     display: block;
-    padding: 1.25rem
+    padding: 0.5rem
 }
 
 /* 框框宽度 */
