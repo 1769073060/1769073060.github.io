@@ -121,66 +121,68 @@ img{
     left: 0;
     right: 0;
     bottom: 0;
-    border: 4px dashed transparent; /* 透明边框，流动效果明显 */
+    border: 4px dashed transparent; /* 透明边框 */
     box-sizing: border-box;
     pointer-events: none; /* 使伪元素不干扰鼠标事件 */
-    animation: dashMove 4s linear infinite, colorChange1 4s linear infinite;
+    animation: dashMove 4s linear infinite, colorChange1 2s linear infinite;
 }
 
 .bx:nth-child(2)::before {
-    animation: dashMove 4s linear infinite, colorChange2 4s linear infinite;
+    animation: dashMove 4s linear infinite, colorChange2 2s linear infinite;
 }
 
 .bx:nth-child(3)::before {
-    animation: dashMove 4s linear infinite, colorChange3 4s linear infinite;
+    animation: dashMove 4s linear infinite, colorChange3 2s linear infinite;
 }
 
 @keyframes dashMove {
     0% {
-        border-color: transparent transparent transparent black; /* 从左侧开始 */
+        border-color: black transparent transparent transparent; /* 从上侧开始 */
     }
-    20% {
-        border-color: transparent transparent black transparent; /* 移动到底边 */
+    15% {
+        border-color: transparent black transparent transparent; /* 移动到右侧 */
     }
-    40% {
-        border-color: transparent black transparent transparent; /* 移动到右边 */
+    30% {
+        border-color: transparent transparent black transparent; /* 移动到底部 */
+    }
+    45% {
+        border-color: transparent transparent transparent black; /* 移动到左侧 */
     }
     60% {
-        border-color: black transparent transparent transparent; /* 移动到上边 */
+        border-color: black transparent transparent transparent; /* 回到上侧 */
     }
-    80% {
-        border-color: transparent black transparent transparent; /* 回到右边 */
+    75% {
+        border-color: transparent black transparent transparent; /* 移动到右侧 */
     }
     100% {
-        border-color: transparent transparent transparent black; /* 保持在左侧 */
+        border-color: black transparent transparent transparent; /* 保持在上侧 */
     }
 }
 
-/* 不同的关键帧用于不同的颜色变化 */
+/* 不同的关键帧用于随机浅颜色变化 */
 @keyframes colorChange1 {
-    0% { border-color: red; }
-    25% { border-color: green; }
-    50% { border-color: blue; }
-    75% { border-color: yellow; }
-    100% { border-color: red; }
+    0% { border-color: rgba(255, 192, 203, 0.7); } /* 浅粉色 */
+    25% { border-color: rgba(173, 216, 230, 0.7); } /* 浅蓝色 */
+    50% { border-color: rgba(144, 238, 144, 0.7); } /* 浅绿色 */
+    75% { border-color: rgba(255, 255, 224, 0.7); } /* 浅黄色 */
+    100% { border-color: rgba(255, 192, 203, 0.7); } /* 浅粉色 */
 }
 
 @keyframes colorChange2 {
-    0% { border-color: orange; }
-    25% { border-color: purple; }
-    50% { border-color: pink; }
-    75% { border-color: cyan; }
-    100% { border-color: orange; }
+    0% { border-color: rgba(255, 255, 224, 0.7); } /* 浅黄色 */
+    25% { border-color: rgba(255, 228, 225, 0.7); } /* 浅红色 */
+    50% { border-color: rgba(221, 160, 221, 0.7); } /* 浅紫色 */
+    75% { border-color: rgba(255, 228, 196, 0.7); } /* 浅橙色 */
+    100% { border-color: rgba(255, 255, 224, 0.7); } /* 浅黄色 */
 }
 
 @keyframes colorChange3 {
-    0% { border-color: teal; }
-    25% { border-color: gold; }
-    50% { border-color: lime; }
-    75% { border-color: magenta; }
-    100% { border-color: teal; }
+    0% { border-color: rgba(173, 216, 230, 0.7); } /* 浅蓝色 */
+    25% { border-color: rgba(240, 128, 128, 0.7); } /* 浅红色 */
+    50% { border-color: rgba(255, 228, 196, 0.7); } /* 浅橙色 */
+    75% { border-color: rgba(255, 218, 185, 0.7); } /* 浅桃色 */
+    100% { border-color: rgba(173, 216, 230, 0.7); } /* 浅蓝色 */
 }
-
 
 
 /*.bx {*/
@@ -211,46 +213,28 @@ img{
 /*    0% {*/
 /*        border-color: transparent transparent transparent black; !* 从左侧开始 *!*/
 /*    }*/
-/*    15% {*/
+/*    10% {*/
 /*        border-color: transparent transparent black transparent; !* 移动到底边 *!*/
 /*    }*/
-/*    30% {*/
+/*    25% {*/
 /*        border-color: transparent black transparent transparent; !* 移动到右边 *!*/
 /*    }*/
-/*    45% {*/
+/*    40% {*/
 /*        border-color: black transparent transparent transparent; !* 移动到上边 *!*/
 /*    }*/
-/*    60% {*/
-/*        border-color: transparent black transparent transparent; !* 中间状态，保持在右边 *!*/
+/*    55% {*/
+/*        border-color: transparent black transparent transparent; !* 回到右边 *!*/
 /*    }*/
-/*    75% {*/
+/*    70% {*/
 /*        border-color: transparent transparent black transparent; !* 移动到底边 *!*/
 /*    }*/
-/*    90% {*/
+/*    85% {*/
 /*        border-color: transparent transparent transparent black; !* 移动到左边 *!*/
 /*    }*/
 /*    100% {*/
 /*        border-color: transparent transparent transparent black; !* 保持在左侧 *!*/
 /*    }*/
 /*}*/
-
-/*!* 额外的关键帧用于随机颜色变化 *!*/
-/*@keyframes colorChange {*/
-/*    0% { border-color: red; }*/
-/*    25% { border-color: green; }*/
-/*    50% { border-color: blue; }*/
-/*    75% { border-color: yellow; }*/
-/*    100% { border-color: purple; }*/
-/*}*/
-
-/*.bx::before, .bx::after {*/
-/*    animation: dashMove 4s linear infinite, colorChange 4s linear infinite;*/
-/*}*/
-
-/*.bx:nth-child(2), .bx:nth-child(3) {*/
-/*    animation: dashMove 4s linear infinite, colorChange 4s linear infinite;*/
-/*}*/
-
 p > a{
      color:#000;
 }
