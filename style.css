@@ -104,13 +104,152 @@ img{
 }
 
 /* 日期框框 */
-.bx{
-    border-style:solid;
-    border-width:medium;
+.bx {
+    position: relative;
+    padding: 20px;
     font-size: 17px;
     font-weight: bold;
-    color:#000;
+    color: #000000;
+    box-sizing: border-box;
+    overflow: hidden; /* 隐藏超出边界的部分 */
 }
+
+.bx::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 4px dashed transparent; /* 透明边框，流动效果明显 */
+    box-sizing: border-box;
+    pointer-events: none; /* 使伪元素不干扰鼠标事件 */
+    animation: dashMove 4s linear infinite, colorChange1 4s linear infinite;
+}
+
+.bx:nth-child(2)::before {
+    animation: dashMove 4s linear infinite, colorChange2 4s linear infinite;
+}
+
+.bx:nth-child(3)::before {
+    animation: dashMove 4s linear infinite, colorChange3 4s linear infinite;
+}
+
+@keyframes dashMove {
+    0% {
+        border-color: transparent transparent transparent black; /* 从左侧开始 */
+    }
+    20% {
+        border-color: transparent transparent black transparent; /* 移动到底边 */
+    }
+    40% {
+        border-color: transparent black transparent transparent; /* 移动到右边 */
+    }
+    60% {
+        border-color: black transparent transparent transparent; /* 移动到上边 */
+    }
+    80% {
+        border-color: transparent black transparent transparent; /* 回到右边 */
+    }
+    100% {
+        border-color: transparent transparent transparent black; /* 保持在左侧 */
+    }
+}
+
+/* 不同的关键帧用于不同的颜色变化 */
+@keyframes colorChange1 {
+    0% { border-color: red; }
+    25% { border-color: green; }
+    50% { border-color: blue; }
+    75% { border-color: yellow; }
+    100% { border-color: red; }
+}
+
+@keyframes colorChange2 {
+    0% { border-color: orange; }
+    25% { border-color: purple; }
+    50% { border-color: pink; }
+    75% { border-color: cyan; }
+    100% { border-color: orange; }
+}
+
+@keyframes colorChange3 {
+    0% { border-color: teal; }
+    25% { border-color: gold; }
+    50% { border-color: lime; }
+    75% { border-color: magenta; }
+    100% { border-color: teal; }
+}
+
+
+
+/*.bx {*/
+/*    position: relative;*/
+/*    padding: 20px;*/
+/*    font-size: 17px;*/
+/*    font-weight: bold;*/
+/*    color: #000000;*/
+/*    box-sizing: border-box;*/
+/*    !* border: 4px dashed black; 设置虚线边框 *!*/
+/*    overflow: hidden; !* 隐藏超出边界的部分 *!*/
+/*}*/
+
+/*.bx::before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    border: 4px dashed black; !* 透明边框 *!*/
+/*    box-sizing: border-box;*/
+/*    pointer-events: none; !* 使伪元素不干扰鼠标事件 *!*/
+/*    animation: dashMove 3s linear infinite; !* 动画 *!*/
+/*}*/
+
+/*@keyframes dashMove {*/
+/*    0% {*/
+/*        border-color: transparent transparent transparent black; !* 从左侧开始 *!*/
+/*    }*/
+/*    15% {*/
+/*        border-color: transparent transparent black transparent; !* 移动到底边 *!*/
+/*    }*/
+/*    30% {*/
+/*        border-color: transparent black transparent transparent; !* 移动到右边 *!*/
+/*    }*/
+/*    45% {*/
+/*        border-color: black transparent transparent transparent; !* 移动到上边 *!*/
+/*    }*/
+/*    60% {*/
+/*        border-color: transparent black transparent transparent; !* 中间状态，保持在右边 *!*/
+/*    }*/
+/*    75% {*/
+/*        border-color: transparent transparent black transparent; !* 移动到底边 *!*/
+/*    }*/
+/*    90% {*/
+/*        border-color: transparent transparent transparent black; !* 移动到左边 *!*/
+/*    }*/
+/*    100% {*/
+/*        border-color: transparent transparent transparent black; !* 保持在左侧 *!*/
+/*    }*/
+/*}*/
+
+/*!* 额外的关键帧用于随机颜色变化 *!*/
+/*@keyframes colorChange {*/
+/*    0% { border-color: red; }*/
+/*    25% { border-color: green; }*/
+/*    50% { border-color: blue; }*/
+/*    75% { border-color: yellow; }*/
+/*    100% { border-color: purple; }*/
+/*}*/
+
+/*.bx::before, .bx::after {*/
+/*    animation: dashMove 4s linear infinite, colorChange 4s linear infinite;*/
+/*}*/
+
+/*.bx:nth-child(2), .bx:nth-child(3) {*/
+/*    animation: dashMove 4s linear infinite, colorChange 4s linear infinite;*/
+/*}*/
 
 p > a{
      color:#000;
@@ -323,7 +462,7 @@ a {
 
 /* 文章时间 */
 #content-wrap > div > div > wenzhang > div > div > a{
-    padding: 1px !important;
+    padding: 3px !important;
     margin-bottom: 4px !important;
     border-radius: 4px;
 }
