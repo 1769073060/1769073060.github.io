@@ -259,7 +259,7 @@ p > a{
 }
 
 /* 分类中间对其 */
-#content-wrap > div > span > h2 > ul {
+#content-wrap > div > span >  h2 > ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -308,6 +308,11 @@ p > a{
     font-weight:900;
     font-size: 2rem;;
 }
+/* 标题 */
+#h1-title  {
+    text-align: center;
+}
+
 /* 分类框框 */
 #text3{
     min-width: 100vh;
