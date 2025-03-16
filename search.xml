@@ -4,6 +4,87 @@
   
     
     <entry>
+      <title>Wireshark「网络嗅探抓包工具」v4.4.4 中文绿色便携版</title>
+      <link href="/2025/03/16/Wireshark%E3%80%8C%E7%BD%91%E7%BB%9C%E5%97%85%E6%8E%A2%E6%8A%93%E5%8C%85%E5%B7%A5%E5%85%B7%E3%80%8Dv4-4-4-%E4%B8%AD%E6%96%87%E7%BB%BF%E8%89%B2%E4%BE%BF%E6%90%BA%E7%89%88/"/>
+      <url>/2025/03/16/Wireshark%E3%80%8C%E7%BD%91%E7%BB%9C%E5%97%85%E6%8E%A2%E6%8A%93%E5%8C%85%E5%B7%A5%E5%85%B7%E3%80%8Dv4-4-4-%E4%B8%AD%E6%96%87%E7%BB%BF%E8%89%B2%E4%BE%BF%E6%90%BA%E7%89%88/</url>
+      
+        <content type="html"><![CDATA[<h1 id="▎前言"><a href="#▎前言" class="headerlink" title="▎前言"></a>▎前言</h1><p>Wireshark（以前叫Ethereal）是一个免费又开源的软件，专门用来“偷听”和查看网络上传输的数据包，就像是一个网络世界的“侦探工具”，特别有名！这个软件能帮你抓到网络上流动的数据包，并且把这些数据包里面的信息展示得非常详细，就像拆开信封看里面的信一样。<br>Wireshark通过一个叫WinPCAP的东西跟你的电脑网卡连接上，这样它就可以直接跟网卡“聊天”，拿到网络上的通信数据了。它就像是一个实时的网络监控器，能看着你电脑上的网络活动，还能保存这些活动的“快照”，以后想怎么看就怎么看。<br>而且，Wireshark的界面很直观，你可以像翻书一样一页页地看这些数据包里的内容，每一层的信息都能看清楚，比如数据的发送者、接收者、说了什么话等等。<br>它还有一些很厉害的功能，比如可以用一种特别的语言来筛选你想看的信息，这样就不会被海量的数据淹没了。它还能帮你把TCP会话的数据重新组装起来，让你更容易理解这些数据是怎么交流的。另外，它还支持好多种网络协议和流媒体类型，简直就是个网络世界的“万能钥匙”。</p><h1 id="▎软件界面使用"><a href="#▎软件界面使用" class="headerlink" title="▎软件界面使用"></a>▎软件界面使用</h1><p>图片已压缩处理</p><p><img src="/%5Cimages%5C2025%5C3%5Cpasted-15.png" alt="upload successful"></p><blockquote><p>提示 : 【中文版】</p></blockquote><p>注：更多功能请自行下载后体验</p><h1 id="▎安装环境"><a href="#▎安装环境" class="headerlink" title="▎安装环境"></a>▎安装环境</h1><p>[名称]：Wireshark<br>[版本]：4.4.4<br>[大小]：79MB<br>[语言]：简体中文<br>[环境]：Windows</p><h1 id="▎下载地址"><a href="#▎下载地址" class="headerlink" title="▎下载地址"></a>▎下载地址</h1><p><button type="button" class="button" onclick="window.location.href='https://pan.quark.cn/s/2d79c7a1a1a2';">直链下载</button><br><button type="button" class="buttonBlue" onclick="window.location.href='https://pan.baidu.com/s/1NYVe3ZNNT8cQ1Y3AXx1EIA?pwd=1wd3';">备用下载</button></p><style>      .button {          background-color: #4CAF50; /* 绿色 */          border: none;          color: white;          padding: 15px 32px;          text-align: center;          text-decoration: none;          display: inline-block;          font-size: 16px;          margin: 4px 2px;          cursor: pointer;          border-radius: 8px;    }      .buttonBlue {          background-color: #2ea7e0; /* 蓝色 */         border: none;          color: white;          padding: 15px 32px;          text-align: center;          text-decoration: none;          display: inline-block;          font-size: 16px;          margin: 4px 2px;          cursor: pointer;          border-radius: 8px;    }  </style>]]></content>
+      
+      
+      <categories>
+          
+          <category> 电脑软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电脑软件 </tag>
+            
+            <tag> 抓包软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文本转语音软件 Balabolka 绿色便携版</title>
+      <link href="/2025/03/16/%E6%96%87%E6%9C%AC%E8%BD%AC%E8%AF%AD%E9%9F%B3%E8%BD%AF%E4%BB%B6-Balabolka-%E7%BB%BF%E8%89%B2%E4%BE%BF%E6%90%BA%E7%89%88/"/>
+      <url>/2025/03/16/%E6%96%87%E6%9C%AC%E8%BD%AC%E8%AF%AD%E9%9F%B3%E8%BD%AF%E4%BB%B6-Balabolka-%E7%BB%BF%E8%89%B2%E4%BE%BF%E6%90%BA%E7%89%88/</url>
+      
+        <content type="html"><![CDATA[<h1 id="▎前言"><a href="#▎前言" class="headerlink" title="▎前言"></a>▎前言</h1><p>Balabolka是一个能把文字变成声音的软件。它能利用你电脑上安装的所有语音功能。你可以把屏幕上的字保存成WAV、MP3、OGG或WMA这些音频文件。这个软件很聪明，能直接读取你剪贴板里的文字，还能打开好多不同格式的文件，比如电子书、文档这些，像AZW、AZW3、CHM这些格式它都能读。而且，你还可以自己调字体大小和颜色，还有背景颜色，让它看起来更舒服。</p><p>用起来也很方便，你可以从电脑右下角的小图标里控制它开始读或者暂停，或者自己设置一些快捷键来操作。它用的是微软的语音技术，所以你可以调声音的快慢和高低，让它听起来更自然</p><h1 id="▎软件界面使用"><a href="#▎软件界面使用" class="headerlink" title="▎软件界面使用"></a>▎软件界面使用</h1><p>图片已压缩处理</p><p>打开软件后，先把上面的语音选项从“Microsoft Anna-英文版美国”改成“Microsoft Lili-中文版中国”。<br>然后，把你想要变成声音的文字打到下面的框里，或者直接复制粘贴进去。打好字后，点一下“朗读”按钮，软件就会开始读给你听。</p><p><img src="/%5Cimages%5C2025%5C3%5Cpasted-11.png" alt="upload successful"><br>在这个框里，你还可以改文字的格式，或者替换掉一些字。</p><p><img src="/%5Cimages%5C2025%5C3%5Cpasted-12.png" alt="upload successful"></p><p>这个软件很贴心，支持好多种语言，你还可以挑自己喜欢的字体颜色、大小，还有软件的外观。</p><p><img src="/%5Cimages%5C2025%5C3%5Cpasted-13.png" alt="upload successful"><br>声音方面，你可以随便调快慢、大小、还有说话的调调，想怎么听就怎么听。</p><p><img src="/%5Cimages%5C2025%5C3%5Cpasted-14.png" alt="upload successful"></p><p>如果你想把这段文字保存成语音文件，就点上面的“文件”，然后选“保存音档”，再挑个你喜欢的格式就好啦。</p><blockquote><p>提示 : 【中文版】</p></blockquote><p>注：更多功能请自行下载后体验</p><h1 id="▎安装环境"><a href="#▎安装环境" class="headerlink" title="▎安装环境"></a>▎安装环境</h1><p>[名称]：Balabolka<br>[版本]：2.15.0.888<br>[大小]：16.2MB<br>[语言]：简体中文<br>[环境]：Windows</p><h1 id="▎下载地址"><a href="#▎下载地址" class="headerlink" title="▎下载地址"></a>▎下载地址</h1><p><button type="button" class="button" onclick="window.location.href='https://pan.quark.cn/s/625160e4fd25';">直链下载</button><br><button type="button" class="buttonBlue" onclick="window.location.href='https://pan.baidu.com/s/1vD2dUMHcfa-4hkvKOno3Xg?pwd=c6zf';">备用下载</button></p><style>      .button {          background-color: #4CAF50; /* 绿色 */          border: none;          color: white;          padding: 15px 32px;          text-align: center;          text-decoration: none;          display: inline-block;          font-size: 16px;          margin: 4px 2px;          cursor: pointer;          border-radius: 8px;    }      .buttonBlue {          background-color: #2ea7e0; /* 蓝色 */         border: none;          color: white;          padding: 15px 32px;          text-align: center;          text-decoration: none;          display: inline-block;          font-size: 16px;          margin: 4px 2px;          cursor: pointer;          border-radius: 8px;    }  </style>]]></content>
+      
+      
+      <categories>
+          
+          <category> 电脑软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电脑软件 </tag>
+            
+            <tag> 文本转语音 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>FastCopy：极速文件传输，提升工作效率的利器中文便携版</title>
+      <link href="/2025/03/16/FastCopy%EF%BC%9A%E6%9E%81%E9%80%9F%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%EF%BC%8C%E6%8F%90%E5%8D%87%E5%B7%A5%E4%BD%9C%E6%95%88%E7%8E%87%E7%9A%84%E5%88%A9%E5%99%A8%E4%B8%AD%E6%96%87%E4%BE%BF%E6%90%BA%E7%89%88/"/>
+      <url>/2025/03/16/FastCopy%EF%BC%9A%E6%9E%81%E9%80%9F%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%EF%BC%8C%E6%8F%90%E5%8D%87%E5%B7%A5%E4%BD%9C%E6%95%88%E7%8E%87%E7%9A%84%E5%88%A9%E5%99%A8%E4%B8%AD%E6%96%87%E4%BE%BF%E6%90%BA%E7%89%88/</url>
+      
+        <content type="html"><![CDATA[<h1 id="▎前言"><a href="#▎前言" class="headerlink" title="▎前言"></a>▎前言</h1><p>FastCopy是一个专门用来快速复制和删除文件的软件。它特别厉害，比其他同类软件都要好用和高效。而且，这个软件很小巧，不占地方。<br>你安装好之后，可以直接把安装文件夹里的那些文件复制到U盘或者其他可以带着走的存储设备里。这样，你随时随地都能用，非常方便。</p><h1 id="▎软件界面使用"><a href="#▎软件界面使用" class="headerlink" title="▎软件界面使用"></a>▎软件界面使用</h1><p>图片已压缩处理</p><p>拿FastCopy来复制一个411MB大小的文件，结果眨眼功夫，7秒就完成了，速度飞快，平均每秒钟能传62.6MB的数据。这样一来，我们不管是工作还是休闲时复制大文件，都不用再傻等那么久了，效率自然就上去了</p><p><img src="/%5Cimages%5C2025%5C3%5Cpasted-10.png" alt="upload successful"></p><blockquote><p>提示 : 【中文版】</p></blockquote><p>注：更多功能请自行下载后体验</p><h1 id="▎安装环境"><a href="#▎安装环境" class="headerlink" title="▎安装环境"></a>▎安装环境</h1><p>[名称]：FastCopy<br>[版本]：5.7.12<br>[大小]：6.2MB<br>[语言]：简体中文<br>[环境]：Windows</p><h1 id="▎下载地址"><a href="#▎下载地址" class="headerlink" title="▎下载地址"></a>▎下载地址</h1><p><button type="button" class="button" onclick="window.location.href='https://pan.quark.cn/s/5eca5debb548';">直链下载</button><br><button type="button" class="buttonBlue" onclick="window.location.href='https://pan.baidu.com/s/1cRDAUEQkFTeCHQZVNC8-9g?pwd=25av';">备用下载</button></p><style>      .button {          background-color: #4CAF50; /* 绿色 */          border: none;          color: white;          padding: 15px 32px;          text-align: center;          text-decoration: none;          display: inline-block;          font-size: 16px;          margin: 4px 2px;          cursor: pointer;          border-radius: 8px;    }      .buttonBlue {          background-color: #2ea7e0; /* 蓝色 */         border: none;          color: white;          padding: 15px 32px;          text-align: center;          text-decoration: none;          display: inline-block;          font-size: 16px;          margin: 4px 2px;          cursor: pointer;          border-radius: 8px;    }  </style>]]></content>
+      
+      
+      <categories>
+          
+          <category> 电脑软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电脑软件 </tag>
+            
+            <tag> 文件传输 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>彻底卸载显卡驱动，Display Driver Uninstaller v18.0.9.2中文便携版</title>
       <link href="/2025/03/16/%E5%BD%BB%E5%BA%95%E5%8D%B8%E8%BD%BD%E6%98%BE%E5%8D%A1%E9%A9%B1%E5%8A%A8%EF%BC%8CDisplay-Driver-Uninstaller-v18-0-9-2%E4%B8%AD%E6%96%87%E4%BE%BF%E6%90%BA%E7%89%88/"/>
       <url>/2025/03/16/%E5%BD%BB%E5%BA%95%E5%8D%B8%E8%BD%BD%E6%98%BE%E5%8D%A1%E9%A9%B1%E5%8A%A8%EF%BC%8CDisplay-Driver-Uninstaller-v18-0-9-2%E4%B8%AD%E6%96%87%E4%BE%BF%E6%90%BA%E7%89%88/</url>
